@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "bin-debug",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "types": []
+    },
+    "include": [
+        "src",
+        "libs"
+, "resource/game_skin/skin/mBtnPlayer.ts", "resource/game_skin/skin/mBtnHero.ts", "resource/game_skin/skin/mBtnGoods.ts", "resource/game_skin/skin/mBtnAbout.ts"    ]
+}

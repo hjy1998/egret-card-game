@@ -1,0 +1,35 @@
+{
+    "1776b4de0ec": {
+        "path": "..\\resource\\MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": true
+    },
+    "1776b597fc8": {
+        "path": "..\\resource\\game_skin\\mBtnPlayer.ts",
+        "class": "mBtnPlayer",
+        "parentPath": ""
+    },
+    "1776b6620dc": {
+        "path": "..\\resource\\game_skin\\skin\\mBtnHero.ts",
+        "class": "mBtnHero",
+        "parentPath": ""
+    },
+    "1776b6be122": {
+        "path": "..\\resource\\game_skin\\skin\\mbtnGoods.ts",
+        "class": "mbtnGoods",
+        "parentPath": ""
+    },
+    "1776c417070": {
+        "path": "skin\\btnBack.ts",
+        "class": "btnBack",
+        "parentPath": ""
+    },
+    "1776c563c13": {
+        "path": "skin\\equipItem.ts",
+        "class": "equipItem",
+        "parentPath": ""
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1776c2ed9a2"></w:Config>
+	<e:Image source="botton_png" x="0" y="690" />
+	<e:Group id="mBtnGroup" x="18" y="720">
+		<e:ToggleButton id="mBtnPlayer0" label="ToggleButton" x="-3" y="-2" skinName="mBtnPlayerSkin" width="111" />
+		<e:ToggleButton id="mBtnHero0" label="ToggleButton" x="111" y="-2" skinName="mBtnHeroSkin" width="111" />
+		<e:ToggleButton id="mBtnGoods0" label="ToggleButton" x="224" y="-2" skinName="mBtnGoodsSkin" width="111" />
+		<e:ToggleButton id="mBtnAbout0" label="ToggleButton" x="337" y="-2" skinName="mBtnAboutSkin" width="111" />
+	</e:Group>
+	<e:Image source="home_header_png" left="0" top="0" />
+	<e:Image source="bg_png" x="0" y="120" height="590" />
+	<e:Image source="profileContent_png" x="24" y="196" width="420" height="280" />
+	<e:Button id="btnReturn" x="13" y="132">
+		<e:skinName>
+			<e:Skin states="up, down, disabled">
+				<e:Image source="btnReturn_png" height="90%" width="90%" width.down="100%" height.down="100%"
+				         source.down="btnReturn_png" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="profileTitle_png" x="180" y="135" width="130" height="40" />
+	<e:Button id="btnEquip" x="43.5" y="638">
+		<e:skinName>
+			<e:Skin states="up, down, disabled">
+				<e:Image source="btnEquip_png" height="90%" width="90%" width.down="100%" height.down="100%"
+				         source.down="btnEquip_png" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+		<e:Button id="btnEnhance" x="272.5" y="638">
+		<e:skinName>
+			<e:Skin states="up, down, disabled">
+				<e:Image source="btnStrengthen_png" height="90%" width="90%" width.down="100%" height.down="100%"
+				         source.down="btnStrengthen_png" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="skillBg_png" x="24" y="480" />
+	<e:Scroller id="scrollerEquip" width="410" height="120" x="30.5" y="485" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="listEquip" x="1.5" y="416" itemRendererSkinName="equipItemSkin"/>
+	</e:Scroller>
+</e:Skin>
