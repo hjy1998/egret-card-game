@@ -22,4 +22,3 @@ var mBtnGoods = (function (_super) {
     return mBtnGoods;
 }(eui.Component));
 __reflect(mBtnGoods.prototype, "mBtnGoods", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=mBtnGoods.js.map

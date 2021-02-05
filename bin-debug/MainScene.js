@@ -52,6 +52,18 @@ var MainScene = (function (_super) {
                 Router.toPlayerScene();
                 this.setChildIndex(this.mBtnGroup, this.numChildren);
                 break;
+            case 1:
+                Router.toHeroScene();
+                this.setChildIndex(this.mBtnGroup, this.numChildren);
+                break;
+            case 2:
+                Router.toGoodsScene();
+                this.setChildIndex(this.mBtnGroup, this.numChildren);
+                break;
+            case 3:
+                Router.toAboutScene();
+                // this.setChildIndex(this.mBtnGroup, this.numChildren);
+                break;
             default:
                 break;
         }
@@ -59,4 +71,3 @@ var MainScene = (function (_super) {
     return MainScene;
 }(eui.Component));
 __reflect(MainScene.prototype, "MainScene", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=MainScene.js.map

@@ -21,7 +21,15 @@
 		"mBtnAbout": "resource/game_skin/skin/mBtnAbout.exml",
 		"PlayerScene": "resource/game_skin/PlayerScene.exml",
 		"btnBack": "resource/game_skin/skin/btnBack.exml",
-		"equipItem": "resource/game_skin/skin/equipItem.exml"
+		"equipItem": "resource/game_skin/skin/equipItem.exml",
+		"HeroScene.ts": "resource/game_skin/HeroScene.ts.exml",
+		"HeroScene": "resource/game_skin/HeroScene.exml",
+		"heroItem": "resource/game_skin/skin/heroItem.exml",
+		"ItemScene.ts": "resource/game_skin/ItemScene.ts.exml",
+		"ItemScene": "resource/game_skin/ItemScene.exml",
+		"goodsItem": "resource/game_skin/skin/goodsItem.exml",
+		"GoodsScene": "resource/game_skin/GoodsScene.exml",
+		"AboutScene": "resource/game_skin/AboutScene.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -38,13 +46,18 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
+		"resource/game_skin/AboutScene.exml",
 		"resource/game_skin/skin/mBtnPlayer.exml",
 		"resource/game_skin/skin/mBtnHero.exml",
 		"resource/game_skin/skin/mBtnGoods.exml",
 		"resource/game_skin/skin/mBtnAbout.exml",
+		"resource/game_skin/GoodsScene.exml",
+		"resource/game_skin/HeroScene.exml",
 		"resource/game_skin/MainScene.exml",
 		"resource/game_skin/PlayerScene.exml",
-		"resource/game_skin/skin/equipItem.exml"
+		"resource/game_skin/skin/equipItem.exml",
+		"resource/game_skin/skin/goodsItem.exml",
+		"resource/game_skin/skin/heroItem.exml"
 	],
 	"path": "resource/default.thm.json"
 }

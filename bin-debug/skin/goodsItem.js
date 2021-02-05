@@ -8,17 +8,17 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var mBtnHero = (function (_super) {
-    __extends(mBtnHero, _super);
-    function mBtnHero() {
+var goodsItem = (function (_super) {
+    __extends(goodsItem, _super);
+    function goodsItem() {
         return _super.call(this) || this;
     }
-    mBtnHero.prototype.partAdded = function (partName, instance) {
+    goodsItem.prototype.partAdded = function (partName, instance) {
         _super.prototype.partAdded.call(this, partName, instance);
     };
-    mBtnHero.prototype.childrenCreated = function () {
+    goodsItem.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
     };
-    return mBtnHero;
+    return goodsItem;
 }(eui.Component));
-__reflect(mBtnHero.prototype, "mBtnHero", ["eui.UIComponent", "egret.DisplayObject"]);
+__reflect(goodsItem.prototype, "goodsItem", ["eui.UIComponent", "egret.DisplayObject"]);

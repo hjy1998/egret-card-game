@@ -34,8 +34,8 @@ var PlayerScene = (function (_super) {
     };
     PlayerScene.prototype.returnMain = function () {
         Router.toMainScene();
+        Router.instance.mainScene.toggleBtn(0);
     };
     return PlayerScene;
 }(eui.Component));
 __reflect(PlayerScene.prototype, "PlayerScene", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=PlayerScene.js.map

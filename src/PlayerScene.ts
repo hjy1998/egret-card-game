@@ -44,6 +44,8 @@ class PlayerScene extends eui.Component implements eui.UIComponent {
 
 	private returnMain() {
 		Router.toMainScene();
+		Router.instance.mainScene.toggleBtn(0);
+
 	}
 
 }

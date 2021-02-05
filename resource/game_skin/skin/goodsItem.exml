@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="goodsItemSkin" width="443" height="104" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1777041482b"></w:Config>
+	<e:Image source="listItemBkgd_png" left="0" top="0" />
+	<e:Image width="60" height="70" x="34" y="16.67" anchorOffsetX="0" anchorOffsetY="0"  source="{data.image}"/>
+	<e:Label text="{data.name}" x="159.32" y="22.99" size="20" textColor="0xf9cb00" />
+	<e:Label text="{data.value}" x="122.99" y="63.99" size="20" textColor="0x0a9fd3" />
+</e:Skin>

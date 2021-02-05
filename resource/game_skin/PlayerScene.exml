@@ -10,9 +10,9 @@
 		<e:ToggleButton id="mBtnAbout0" label="ToggleButton" x="337" y="-2" skinName="mBtnAboutSkin" width="111" />
 	</e:Group>
 	<e:Image source="home_header_png" left="0" top="0" />
-	<e:Image source="bg_png" x="0" y="120" height="590" />
+	<e:Image source="bg_png" x="1" y="120" height="590" />
 	<e:Image source="profileContent_png" x="24" y="196" width="420" height="280" />
-	<e:Button id="btnReturn" x="13" y="132">
+	<e:Button id="btnReturn" x="13" y="130">
 		<e:skinName>
 			<e:Skin states="up, down, disabled">
 				<e:Image source="btnReturn_png" height="90%" width="90%" width.down="100%" height.down="100%"

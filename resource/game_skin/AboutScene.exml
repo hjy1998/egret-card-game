@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AboutSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="177713894f0"></w:Config>
+	<e:Rect width="480" height="800" fillColor="0x262525" left="0" top="0" fillAlpha="0.8"/>
+	<e:Image source="notice_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelAbout" x="215" y="375" anchorOffsetX="0" width="200" anchorOffsetY="0" height="100"/>
+	<e:Button id="btnClose" x="398" y="278">
+		<e:skinName>
+		<e:Skin states="up, down, disabled">
+			<e:Image source="close_png" width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

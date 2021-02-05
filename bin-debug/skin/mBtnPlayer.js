@@ -22,4 +22,3 @@ var mBtnPlayer = (function (_super) {
     return mBtnPlayer;
 }(eui.Component));
 __reflect(mBtnPlayer.prototype, "mBtnPlayer", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=mBtnPlayer.js.map
