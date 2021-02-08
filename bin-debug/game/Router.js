@@ -58,28 +58,37 @@ var Router = (function () {
         if (!mainScene.parent) {
             stage.addChild(mainScene);
         }
+        ;
         if (Router.instance.playerScene.parent) {
             mainScene.removeChild(Router.instance.playerScene);
         }
+        ;
         if (Router.instance.heroScene.parent) {
             mainScene.removeChild(Router.instance.heroScene);
         }
+        ;
         if (Router.instance.goodsScene.parent) {
             mainScene.removeChild(Router.instance.goodsScene);
         }
+        ;
     };
     Router.toPlayerScene = function () {
         this.instance.mainScene.addChild(this.instance.playerScene);
     };
+    ;
     Router.toHeroScene = function () {
         this.instance.mainScene.addChild(this.instance.heroScene);
     };
+    ;
     Router.toGoodsScene = function () {
         this.instance.mainScene.addChild(this.instance.goodsScene);
     };
+    ;
     Router.toAboutScene = function () {
         this.instance.mainScene.addChild(this.instance.aboutScene);
     };
+    ;
     return Router;
 }());
 __reflect(Router.prototype, "Router");
+//# sourceMappingURL=Router.js.map

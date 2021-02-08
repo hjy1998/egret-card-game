@@ -22,3 +22,4 @@ var goodsItem = (function (_super) {
     return goodsItem;
 }(eui.Component));
 __reflect(goodsItem.prototype, "goodsItem", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=goodsItem.js.map

@@ -33,3 +33,4 @@ var heroItem = (function (_super) {
     return heroItem;
 }(eui.ItemRenderer));
 __reflect(heroItem.prototype, "heroItem");
+//# sourceMappingURL=heroItem.js.map

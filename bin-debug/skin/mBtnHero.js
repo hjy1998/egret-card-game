@@ -22,3 +22,4 @@ var mBtnHero = (function (_super) {
     return mBtnHero;
 }(eui.Component));
 __reflect(mBtnHero.prototype, "mBtnHero", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=mBtnHero.js.map

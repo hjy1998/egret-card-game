@@ -61,7 +61,7 @@ class Router {
                 Router.instance.mainScene.removeChild(img);
                 Router.instance.mainScene.removeChild(label);
             },
-            this
+            this,
         )
     }
 
@@ -72,34 +72,34 @@ class Router {
 
         if (!mainScene.parent) {
             stage.addChild(mainScene);
-        }
+        };
 
         if (Router.instance.playerScene.parent) {
             mainScene.removeChild(Router.instance.playerScene);
-        }
+        };
 
         if (Router.instance.heroScene.parent) {
             mainScene.removeChild(Router.instance.heroScene);
-        }
+        };
 
         if (Router.instance.goodsScene.parent) {
             mainScene.removeChild(Router.instance.goodsScene);
-        }
+        };
     }
 
     static toPlayerScene() {
         this.instance.mainScene.addChild(this.instance.playerScene);
-    }
+    };
 
     static toHeroScene() {
         this.instance.mainScene.addChild(this.instance.heroScene);
-    }
+    };
 
     static toGoodsScene() {
         this.instance.mainScene.addChild(this.instance.goodsScene);
-    }
+    };
 
     static toAboutScene() {
         this.instance.mainScene.addChild(this.instance.aboutScene)
-    }
+    };
 }

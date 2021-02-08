@@ -20,13 +20,13 @@ var GoodsScene = (function (_super) {
     GoodsScene.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
         var goodsArrayList = [
-            { image: 'resource/art/heros_goods/goods01.png', name: '亚特伍德1', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods02.png', name: '亚特伍德2', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods03.png', name: '亚特伍德3', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods04.png', name: '亚特伍德4', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods05.png', name: '亚特伍德5', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods06.png', name: '亚特伍德6', value: '评价: 力量+100, 智力 -500' },
-            { image: 'resource/art/heros_goods/goods07.png', name: '亚特伍德7', value: '评价: 力量+100, 智力 -500' }
+            { image: 'resource/art/heros_goods/goods01.png', name: '魔法石', value: '法力加成 +3' },
+            { image: 'resource/art/heros_goods/goods02.png', name: '诅咒娃娃', value: '咒术加成 +3' },
+            { image: 'resource/art/heros_goods/goods03.png', name: '万圣戒指', value: '敏捷加成 +3' },
+            { image: 'resource/art/heros_goods/goods04.png', name: '斗篷', value: '耐力加成 +3' },
+            { image: 'resource/art/heros_goods/goods05.png', name: '鹅毛笔', value: '精神加成 +3' },
+            { image: 'resource/art/heros_goods/goods06.png', name: '血滴子', value: '嗜血加成 +3' },
+            { image: 'resource/art/heros_goods/goods07.png', name: '屠龙刀', value: '力量加成 +5' },
         ];
         var EUIGoodsArray = new eui.ArrayCollection(goodsArrayList);
         this.listGoods.dataProvider = EUIGoodsArray;
@@ -39,3 +39,4 @@ var GoodsScene = (function (_super) {
     return GoodsScene;
 }(eui.Component));
 __reflect(GoodsScene.prototype, "GoodsScene", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=GoodsScene.js.map

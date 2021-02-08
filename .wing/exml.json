@@ -5,7 +5,7 @@
     "parentPath": ""
   },
   "global": {
-    "globalAutoLayerMarkEnable": false
+    "globalAutoLayerMarkEnable": true
   },
   "1776b597fc8": {
     "path": "..\\resource\\game_skin\\mBtnPlayer.ts",

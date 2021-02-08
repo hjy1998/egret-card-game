@@ -19,13 +19,13 @@ var HeroScene = (function (_super) {
     HeroScene.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
         var heroArrayList = [
-            { image: 'resource/art/heros_goods/heros01.png', name: '亚特伍德1', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros02.png', name: '亚特伍德2', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros03.png', name: '亚特伍德3', value: '评价: 很特么厉害, 为所欲为', isSelected: true },
-            { image: 'resource/art/heros_goods/heros04.png', name: '亚特伍德4', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros05.png', name: '亚特伍德5', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros06.png', name: '亚特伍德6', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros07.png', name: '亚特伍德7', value: '评价: 很特么厉害, 为所欲为', isSelected: false },
+            { image: 'resource/art/heros_goods/heros01.png', name: '伊文捷琳', value: '评价：樱桃小丸子', isSelected: false },
+            { image: 'resource/art/heros_goods/heros02.png', name: '亚特伍德', value: '评价：离了我你不行的', isSelected: false },
+            { image: 'resource/art/heros_goods/heros03.png', name: '伊妮德', value: '评价：猴子请来的逗比', isSelected: true },
+            { image: 'resource/art/heros_goods/heros04.png', name: '鲁宾', value: '评价：我勒个去', isSelected: false },
+            { image: 'resource/art/heros_goods/heros05.png', name: '威弗列德', value: '评价：这货碉堡了', isSelected: false },
+            { image: 'resource/art/heros_goods/heros06.png', name: '史帝文', value: '评价：咖啡不加糖', isSelected: false },
+            { image: 'resource/art/heros_goods/heros07.png', name: '哈瑞斯', value: '评价：猪一样的队友', isSelected: false },
         ];
         var EUIHeroArray = new eui.ArrayCollection(heroArrayList);
         this.listHero.dataProvider = EUIHeroArray;
@@ -52,3 +52,4 @@ var HeroScene = (function (_super) {
     return HeroScene;
 }(eui.Component));
 __reflect(HeroScene.prototype, "HeroScene", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=HeroScene.js.map
